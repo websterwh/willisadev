@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+html, body {
+    background-color: #101010;
+}
+
+.center {
+    position: absolute;
+    width: 300px;
+    z-index: 15;
+    top: 55%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    text-align: center;
+}
+#welcome-text{
+    font-weight: 700;
+    font-size: 14px;
+
+    color: grey;
+
+    line-height: 1px;
+    transition-duration: 0.3s;
+}
+#welcome-text:hover{
+    color: #f5b342;
+    transition-duration: 0.3s;
+}
+#welcome-desc{
+    font-weight: 300;
+    font-size: 10px;
+
+    color: grey;
+    transition-duration: 0.3s;
+}
+#welcome-desc:hover{
+    color: #f5b342;
+    transition-duration: 0.3s;
+}
+#welcome-nav {
+    line-height: 0px;
+
+    font-weight: 300;
+    font-size: 10px;
+
+    color: grey;
+}
+#welcome-nav span{
+    margin-right: 10px;
+    margin-left: 10px;  
+}
+#welcome-nav span a{
+    color: grey;
+    transition-duration: 0.3s;
+
+    text-decoration: none;
+}
+
+#welcome-nav span a:hover{
+    color: #f5b342;
+    transition-duration: 0.3s;
+}
+
+#footer {
+    margin-top: 300px;
+
+    font-weight: 300;
+    font-size: 10px;
+
+    color: grey;
+    transition-duration: 0.3s;
+}
+
+
+
+
+
